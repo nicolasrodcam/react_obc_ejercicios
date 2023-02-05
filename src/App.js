@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import ComponenteA from './components/componenteA';
+import Clock from './components/clock';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <ComponenteA></ComponenteA>
+        <Clock></Clock>
       </header>
     </div>
   );
